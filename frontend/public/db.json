@@ -1,0 +1,83 @@
+{
+  "issues": {
+    "tasks": {
+      "1792300a-4ace-40a5-a433-2430e412d1db": {
+        "id": "1792300a-4ace-40a5-a433-2430e412d1db",
+        "title": "Уникальный идентификатор для каждой задачи",
+        "description": "Надо чтобы каждая таска имела уникальное ID",
+        "projectName": "Bleach Bankai",
+        "taskKey": 1
+      },
+      "4063b035-0a07-4455-bf6d-9a510f6d70b2": {
+        "id": "4063b035-0a07-4455-bf6d-9a510f6d70b2",
+        "title": "Сделать sharing задачи по ID",
+        "description": "Надо чтобы мы могли поделиться задачей с другим человеком. Ссылка должна содержать ID задачи в query параметрах.",
+        "projectName": "Bleach Bankai",
+        "taskKey": 2
+      },
+      "cf7ee223-8eac-44fb-a5f9-52a1a3e3832a": {
+        "id": "cf7ee223-8eac-44fb-a5f9-52a1a3e3832a",
+        "title": "Создать поле определения типа задачи",
+        "description": "Внести в проект возможность определить тип задачи чтобы понимать для каких целей он нужен и что он решает",
+        "projectName": "Bleach Bankai",
+        "taskKey": 3
+      },
+      "1d63ed3d-0428-49b2-9ac0-af32727723cd": {
+        "id": "1d63ed3d-0428-49b2-9ac0-af32727723cd",
+        "title": "Создать кнопку удаления внутри таски",
+        "description": "Сделать фичу удаления таски внутри модального окна",
+        "projectName": "Bleach Bankai",
+        "taskKey": 4
+      },
+      "bb6aa270-085d-4e82-be8f-8e196860a0af": {
+        "id": "bb6aa270-085d-4e82-be8f-8e196860a0af",
+        "title": "Зафиксить положение тасков в колонке [Не остаются в колонке после рефреша]",
+        "description": "Зафиксить положение тасков в колонке [Не остаются в колонке после рефреша]",
+        "projectName": "Bleach Bankai",
+        "taskKey": 5
+      },
+      "ed16aed4-8e8e-4eb0-bda2-d02839014b27": {
+        "id": "ed16aed4-8e8e-4eb0-bda2-d02839014b27",
+        "title": "Тест",
+        "description": "ТестТестТестТестТестТестТестТестТест",
+        "projectName": "Bleach Bankai",
+        "taskKey": 6
+      }
+    },
+    "columns": {
+      "column1": {
+        "id": "column1",
+        "title": "To do",
+        "taskIds": [
+          "1792300a-4ace-40a5-a433-2430e412d1db",
+          "4063b035-0a07-4455-bf6d-9a510f6d70b2",
+          "cf7ee223-8eac-44fb-a5f9-52a1a3e3832a",
+          "1d63ed3d-0428-49b2-9ac0-af32727723cd",
+          "bb6aa270-085d-4e82-be8f-8e196860a0af",
+          "ed16aed4-8e8e-4eb0-bda2-d02839014b27"
+        ]
+      },
+      "column2": {
+        "id": "column2",
+        "title": "In Progress",
+        "taskIds": []
+      },
+      "column3": {
+        "id": "column3",
+        "title": "In Testing",
+        "taskIds": []
+      },
+      "column4": {
+        "id": "column4",
+        "title": "Done",
+        "taskIds": []
+      }
+    },
+    "columnOrder": [
+      "column1",
+      "column2",
+      "column3",
+      "column4"
+    ]
+  }
+}

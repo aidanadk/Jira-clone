@@ -1,0 +1,50 @@
+.create-issue {
+	&__title {
+		-moz-box-align: center;
+		align-items: center;
+		display: flex;
+		font-size: 20px;
+		font-style: inherit;
+		font-weight: 500;
+		letter-spacing: -0.008em;
+		line-height: 1;
+	}
+	input,textarea {
+		margin-top: 18px;
+		margin-bottom: 18px;
+		background-color: transparent;
+		border: none;
+		box-sizing: border-box;
+		color: inherit;
+		cursor: inherit;
+		font-size: 14px;
+		outline: none;
+		width: 100%;
+		line-height: 1.42857;
+		padding: 8px 6px;
+		min-height: 2.57em;
+		-moz-box-align: center;
+		align-items: center;
+		background-color: var(--ds-background-subtleBorderedNeutral-resting, #fafbfc);
+		border-color: var(--ds-border-neutral, #dfe1e6);
+		color: var(--ds-text-highEmphasis, #091e42);
+		cursor: text;
+		border-radius: 3px;
+		border-width: 2px;
+		border-style: solid;
+		box-sizing: border-box;
+		display: flex;
+		flex: 1 1 100%;
+		font-size: 14px;
+		-moz-box-pack: justify;
+		justify-content: space-between;
+		overflow: hidden;
+		transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+		overflow-wrap: break-word;
+		vertical-align: top;
+		pointer-events: auto;
+	}
+	textarea {
+		resize: none
+	}
+}
